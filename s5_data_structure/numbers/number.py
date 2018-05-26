@@ -25,7 +25,9 @@ print('x/5=', x/5)
 a = int('2')
 b = float(2)
 c = pow(2, 4)
+# pow 表示 2的4次方
 d = max(4, 5)
+# max 表示取(4, 5)的最大值
 
 print("int('2') = ", a)
 print("float(2) = ", b)
@@ -33,4 +35,4 @@ print("pow(2, 4) = ", c)
 print("max(4, 5) = ", d)
 
 # https://docs.python.org/3.5/library/stdtypes.html#numeric-types-int-float-complex
-# https://docs.python.org/3.5/library/functions.html#int
+# https://docs.python.org/3.5/library/functions.html

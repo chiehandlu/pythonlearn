@@ -15,9 +15,9 @@ d = {
 
 # Python Dictionaries are mutable objects that can change their values.
 
-print('d[0] =', d[0])
-
 d[0] = '1111'
+
+print('d[0] =', d[0])
 
 print(d)
 

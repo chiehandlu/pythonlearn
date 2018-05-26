@@ -24,6 +24,8 @@ print('list a =', a)
 b = ['a', 'c', 1, 2, 3, [4, 5, 6]]
 
 print('list b =', b)
+print(b[5])
+print(b[5][0])
 
 
 # Lists operations include slicing ([ ] and [:]) ,

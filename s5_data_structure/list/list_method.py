@@ -27,6 +27,7 @@ list3.insert(1, 2)
 print('list3 =', list3)
 
 # list.count(obj)
+# count表示計算在list中的obj有幾個，像是目前為2的obj有兩個
 print('list3.count 2 =', list3.count(2))
 
 # list.index(obj)
@@ -44,3 +45,5 @@ print('list3 =', list3)
 # list.sort()
 list3.sort()
 print('list3 =', list3)
+list3.sort(reverse)
+print(list3)
